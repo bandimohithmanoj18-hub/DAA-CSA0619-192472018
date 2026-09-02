@@ -1,0 +1,43 @@
+Dataset: Synthetic test data (n=2000)
+Valid coordinate records: 2000
+
+Threshold experiment
+  k= 2: 0.032959s, 2294.0 distance calculations
+  k= 4: 0.022065s, 3525.0 distance calculations
+  k= 8: 0.019627s, 7072.0 distance calculations
+  k=12: 0.021730s, 7072.0 distance calculations
+  k=16: 0.021190s, 14715.0 distance calculations
+  k=24: 0.020608s, 14715.0 distance calculations
+  k=32: 0.026074s, 30268.0 distance calculations
+  k=48: 0.025731s, 30268.0 distance calculations
+  k=64: 0.038932s, 61507.0 distance calculations
+Selected hybrid threshold: 8
+
+Input size 100: correctness PASS
+  Brute Force        0.002623s | 4950.0 comparisons | 0.2 KB
+  Divide and Conquer 0.000916s | 141.0 comparisons | 7.3 KB
+  Hybrid             0.000667s | 284.0 comparisons | 7.2 KB
+
+Input size 250: correctness PASS
+  Brute Force        0.014829s | 31125.0 comparisons | 0.2 KB
+  Divide and Conquer 0.002951s | 282.0 comparisons | 20.1 KB
+  Hybrid             0.001850s | 871.0 comparisons | 20.1 KB
+
+Input size 500: correctness PASS
+  Brute Force        0.090413s | 124750.0 comparisons | 0.3 KB
+  Divide and Conquer 0.005909s | 552.0 comparisons | 32.3 KB
+  Hybrid             0.004091s | 1756.0 comparisons | 32.2 KB
+
+Input size 1000: correctness PASS
+  Brute Force        0.401689s | 499500.0 comparisons | 0.3 KB
+  Divide and Conquer 0.013223s | 1151.0 comparisons | 79.5 KB
+  Hybrid             0.009169s | 3535.0 comparisons | 79.5 KB
+
+Input size 2000: correctness PASS
+  Brute Force        1.621533s | 1999000.0 comparisons | 0.3 KB
+  Divide and Conquer 0.029042s | 2294.0 comparisons | 128.2 KB
+  Hybrid             0.020290s | 7072.0 comparisons | 128.2 KB
+
+Saved: /mnt/data/DAA_Hybrid_Closest_Pair/Results/threshold_results.csv
+Saved: /mnt/data/DAA_Hybrid_Closest_Pair/Results/performance_results.csv
+Saved: /mnt/data/DAA_Hybrid_Closest_Pair/Results/environment.txt

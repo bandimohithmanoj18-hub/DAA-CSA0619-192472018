@@ -1,0 +1,8 @@
+Dataset: OpenFlights airports.dat (C:\Users\bandi\Downloads\DAA_Hybrid_Closest_Pair_v3\DAA_Hybrid_Closest_Pair\Dataset\airports.dat)
+Valid coordinate records: 7698
+Selected hybrid threshold: 8
+Largest benchmark size: 7500
+
+Brute Force: median=3.242633s, distance_calculations=28121250, peak_memory=0.2 KB, closest_pair=(Shute Harbour Airport, Whitsunday Island Airport), distance=0.001242359449
+Divide and Conquer: median=0.032881s, distance_calculations=9002, peak_memory=722.5 KB, closest_pair=(Shute Harbour Airport, Whitsunday Island Airport), distance=0.001242359449
+Hybrid: median=0.025702s, distance_calculations=24887, peak_memory=722.5 KB, closest_pair=(Shute Harbour Airport, Whitsunday Island Airport), distance=0.001242359449

@@ -1,0 +1,7 @@
+dataset: OpenFlights airports.dat (C:\Users\bandi\Downloads\DAA_Hybrid_Closest_Pair_v3\DAA_Hybrid_Closest_Pair\Dataset\airports.dat)
+valid_points: 7698
+python: 3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]
+platform: Windows-11-10.0.26200-SP0
+processor: Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+machine: AMD64
+cpu_count: 18
